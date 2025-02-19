@@ -1,4 +1,4 @@
-from flask import Flask, request, render_template
+import streamlit as st
 import pandas as pd
 import random
 from flask_sqlalchemy import SQLAlchemy
