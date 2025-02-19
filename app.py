@@ -1,7 +1,8 @@
 import streamlit as st
 import pandas as pd
 import random
-from flask_sqlalchemy import SQLAlchemy
+import sqlite3
+import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
