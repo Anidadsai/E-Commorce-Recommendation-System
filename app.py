@@ -9,8 +9,8 @@ from sklearn.metrics.pairwise import cosine_similarity
 app = Flask(__name__)
 
 # load files===========================================================================================================
-trending_products = pd.read_csv("models/trending_products.csv")
-train_data = pd.read_csv("models/clean_data.csv")
+trending_products = pd.read_csv("trending_products.csv")
+train_data = pd.read_csv("clean_data.csv")
 
 # database configuration---------------------------------------
 app.secret_key = "alskdjfwoeieiurlskdjfslkdjf"
